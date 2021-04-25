@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NKN Checker</string>
+    <string name="protocol_version_placeholder">Protocol v.%d</string>
+    <string name="day_hour_minute_second_placeholder">%dD %02d:%02d:%02d</string>
+    <string name="message_count_placeholder">Msg.# %d</string>
+    <string name="refresh">Refresh</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvProposalSubmitted"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/sync_state_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="2" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHostService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="@color/textColorDetails"
+            android:textSize="12sp"
+            tools:text="Google Cloud" />
+
+        <TextView
+            android:id="@+id/tvIpAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/textColorLocation"
+            android:textSize="16sp"
+            tools:text="192.168.1.27" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="@color/textColorDetails"
+            android:textSize="12sp"
+            tools:text="Node 1" />
+
+        <TextView
+            android:id="@+id/tvError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="@color/textColorNodeError"
+            android:textSize="12sp"
+            tools:text="Problem parsing URL" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvProtocolVersion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorDetails"
+            android:textSize="12sp"
+            tools:text="@string/protocol_version_placeholder" />
+
+        <TextView
+            android:id="@+id/tvUptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorDetails"
+            android:textSize="12sp"
+            tools:text="@string/day_hour_minute_second_placeholder" />
+
+        <TextView
+            android:id="@+id/tvRelayMessageCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorDetails"
+            android:textSize="12sp"
+            tools:text="@string/message_count_placeholder" />
+
+    </LinearLayout>
+
+</LinearLayout>

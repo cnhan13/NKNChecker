@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#2B3D4D</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#23303D</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#10CAC9</color>
+
+    <!-- Color for a node with proposalSubmitted = 0 -->
+    <color name="proposalSubmitted0">#4A7BA7</color>
+
+    <!-- Color for a node with proposalSubmitted = 1 -->
+    <color name="proposalSubmitted1">#04B4B3</color>
+
+    <!-- Color for a node with proposalSubmitted = 2 -->
+    <color name="proposalSubmitted2">#10CAC9</color>
+
+    <!-- Color for a node with proposalSubmitted = 3 -->
+    <color name="proposalSubmitted3">#F5A623</color>
+
+    <!-- Color for a node with proposalSubmitted = 4 -->
+    <color name="proposalSubmitted4">#FF7D50</color>
+
+    <!-- Color for a node with proposalSubmitted = 5 -->
+    <color name="proposalSubmitted5">#FC6644</color>
+
+    <!-- Color for a node with proposalSubmitted = 6 -->
+    <color name="proposalSubmitted6">#E75F40</color>
+
+    <!-- Color for a node with proposalSubmitted = 7 -->
+    <color name="proposalSubmitted7">#E13A20</color>
+
+    <!-- Color for a node with proposalSubmitted = 8 -->
+    <color name="proposalSubmitted8">#D93218</color>
+
+    <!-- Color for a node with proposalSubmitted = 9 -->
+    <color name="proposalSubmitted9plus">#C03823</color>
+
+    <color name="textColorNodeError">#E13A20</color>
+
+    <color name="textColorDetails">#B4BAC0</color>
+
+    <color name="textColorLocation">#2B3D4D</color>
+
+    <!-- SyncState circle color for NKN node with syncState: PERSIST_FINISHED (online) -->
+    <color name="online">#4CAF50</color>
+
+    <!-- SyncState circle color for NKN node with syncState: OFFLINE -->
+    <color name="offline">#B4BAC0</color>
+
+    <!-- SyncState circle color for NKN node that is pending fetch from nknx API -->
+    <color name="pending">#FFEB3B</color>
+
+</resources>
